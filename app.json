@@ -1,0 +1,5 @@
+{
+  "name": "mvc-node-generator",
+  "description": "MVC Node Generator With Socket.io Support",
+  "keywords": [ "express", "connect"]
+}

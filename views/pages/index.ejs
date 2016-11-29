@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+  <div class="container">
+    <h1>Welcome To First Page</h1>
+  </div>
+  <% include ../partials/footer.ejs %>
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      var socket=io.connect();
+    });
+  </script>
+</body>
+</html>
